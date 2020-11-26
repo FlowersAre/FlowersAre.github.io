@@ -1,0 +1,210 @@
+main {
+/*   Barvy */
+    color: #222;
+/* Font */
+  font-family: 'Josefin Sans', sans-serif;
+/*   Pozice */
+  display: block;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  position: relative;
+/*   Rozmery */
+  width: 100%;
+  max-width: 800px;
+  height: 100px;
+}
+
+.titul {
+/*   Barvy */
+  background-color: black;
+/* Font */
+  color: white;
+/*   Pozice */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;                                                                                                                                             z-index: 1;
+/* Ohraniceni */
+/*   Rozmery */
+  width: 100%;
+  max-width: inherit;
+  height: 70px;
+}
+
+.titul .tlac {
+/*   Barvy */
+/* Font */
+  font-size: 30px;  
+/*   Pozice */
+  margin: 17px;
+/*   margin-top: auto; */
+/*   margin-bottom: auto; */
+/* Ohraniceni */
+/*   Rozmery */ 
+}
+
+.hove:hover {
+  cursor: pointer;
+  height: inherit;
+  background-color: grey;
+}
+
+.hove:active {
+  color: #ccffff;
+  background-color: #133986;  
+}
+
+.leva {
+/*   Barvy */
+/* Font */
+/*   Pozice */
+  margin-top: 70px;
+/* Ohraniceni */
+/*   Rozmery */
+  width: 42%;
+}
+
+.foto {
+   background-image: url("https://1gr.cz/fotky/idnes/17/093/org/ZAR6e3a92_staensoubor9.jpg");
+/*   background-position: center; */
+  background-position: 55% 17%;
+  background-size: 105%;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+}
+
+.ahoj {
+  color: #222;
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  left: 38px;
+  top: 200px;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 1.0;
+  margin-top: 0px;
+}
+
+.mez1 {
+  height: 280px;
+}
+
+.mez2 {
+  height: 135px;
+}
+
+blockquote {
+/*   Barvy */
+  background-color: #222;
+  color: white;
+/* Font */
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+/*   Pozice */
+  position: relative;
+/* Ohraniceni */
+  margin-left: 0px;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 45px;
+
+/*   Rozmery */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+blockquote:before {
+  content: '\201C';
+/*   Barvy */
+/* Font */
+  font-family: 'Abril Fatface', cursive;
+  font-size: 140px;
+/*   Pozice */
+  position: absolute;
+  top: -39px;
+  left: 1px;
+/* Ohraniceni */
+/*   Rozmery */
+}
+
+.prava {
+/*   Barvy */
+/* Font */
+/*   Pozice */
+    margin-top: 90px;
+/* Ohraniceni */
+  padding-left: 20px;
+  padding-right: 20px;
+/*   Rozmery */
+  width: 58%;
+}
+
+.te1 {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.velkeUL {
+  list-style: square;
+  line-height: 1.3;
+  font-size: 20px;
+  margin-bottom: 245px;
+}
+
+h4{
+  font-size: 31px;
+  font-weight: 500;
+  margin-top: 110px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.te2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.kurs {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  margin-top: -40px;
+  font-weight: 600;
+}
+
+.maleUL {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+hr {
+  margin-top: 50px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#konec {
+  margin-top: 30px;
+}
+/*   Barvy */
+/* Font */
+/*   Pozice */
+/* Ohraniceni */
+/*   Rozmery */
